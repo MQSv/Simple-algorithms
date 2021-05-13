@@ -27,6 +27,6 @@ results = [
 
 translatedData = datatoTest.map(numeral => romantoIndoArabic(numeral));
 
-console.log("Have Difference?" +//compare / tells if there´s a difference between results and translatedData elements
+console.log("Have Difference ?" +//compare / tells if there´s a difference between results and translatedData elements
     results.map((correctNumber, index) => translatedData[index] === correctNumber).includes(false)
 )
